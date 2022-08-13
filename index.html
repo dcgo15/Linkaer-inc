@@ -205,20 +205,21 @@
 		<header>
 			<h2><a href="#" class="logo">Linkaer</a></h2>
 			<div class="navigation">
-				<a href="#">LINKS</a>
+				<a href="encurtador.html">LINKS</a>
 			</div>
 		</header>
 		<div class="conteudo">
 			<div class="info">
+				<form action='{{url_for("download")}}' method="post">
 				<h2>Cole o link<br><span>aqui</span></h2>
 				<p>E baixe seu vídeo do instagram!</p>
-				<input type="text"><br>
+				<input type="text" name="video"><br>
 				<button class="btn">Baixe</button>
 			</div>
 		</div>
 		<div class="redes">
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-google"></i></a>
+			<a href="https://www.instagram.com/mazesoft/"><i class="fab fa-instagram"></i></a>
+			<a href="mailto:softmaze6@gmail.com"><i class="fab fa-google"></i></a>
 		</div>
 	</section>
 </body>
